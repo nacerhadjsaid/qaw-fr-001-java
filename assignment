@@ -7,8 +7,8 @@ f = (c*9/5)+32
 
 c = (f-32)*5/9
 
------------------------------------Welcome------------------------------------------
----Celsius-Fahrenheit/Fahrenheit-Celsius converter----
+---------------------------------------Welcome------------------------------------------
+----------------------Celsius-Fahrenheit/Fahrenheit-Celsius converter-------------------
 
 choose the conversion mode:
 1- Celsius-Fahrenheit
@@ -23,4 +23,34 @@ do you want to convert other temperatures ? 1- Yes/2- No
 if yes (do again - loop)
 
 if no
--------------------------------Good bye, see you soon---------------------------
+-------------------------------Good bye, see you soon-----------------------------------
+
+
+
+Assignment 2: shuffle game
+
+shuffle game assignment (array, methods, if statement, loop, recursive method, random, variables)
+array = {1,0,1}
+
+----------------------------------welcome to shuffle game-------------------------------
+guess where the 0 is ?
+are you ready to play? y/n
+if answer is not y/n keep asking the question
+
+if y:
+shuffle the game
+pick 1, 2 or 3!
+if answer is not 1,2 or 3 keep asking the question
+if good guess:
+good guess!
+if not good guess:
+sorry!!! wrong guess
+
+do you want to try again? y/n
+if answer is not y/n keep asking the question
+
+if y:
+loop the game
+if n:
+see you next time!
+-----------------------------------------------------------------------------------------

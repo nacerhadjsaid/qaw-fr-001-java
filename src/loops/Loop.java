@@ -1,3 +1,5 @@
+package loops;
+
 public class Loop {
     public static void main(String[] args) {
 
@@ -28,16 +30,30 @@ public class Loop {
 //        System.out.println(array1[3]);
 //        System.out.println(array1[4]);
 
-        for(int i = 0; i < 5; i++){
-            System.out.println(array1[i]);
-        }
+//        for(int i = 0; i < 5; i++){
+//            System.out.println(array1[i]);
+//        }
 
         //foreach loop
-        for (int myNum: array1){
-            System.out.println(myNum);
+//        for (int myNum: array1){
+//            System.out.println(myNum);
+//        }
+
+        //break keyword
+//        for(int i = 0; i < 1000; i++){
+//            if (i == 20){
+//                break;
+//            }
+//            System.out.println(i);
+//        }
+
+        //continue keyword
+        for(int i = 0; i < 100; i++){
+            if (i > 20 && i < 80){
+                continue;
+            }
+            System.out.println(i);
         }
-
-
 
     }
 }

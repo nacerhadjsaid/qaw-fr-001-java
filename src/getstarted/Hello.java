@@ -1,10 +1,12 @@
-import java.io.DataOutput;
+package getstarted;
+
+import classobjectconstructor.House;
 
 class Hello {
     //this is main method
     public static void main(String[] args) {
         //this is print statement
-        System.out.print("Hello World");
+        System.out.print("getstarted.Hello World");
 
         /*
         this is line 1
@@ -86,7 +88,7 @@ class Hello {
         System.out.println(res1);
 
         //string (non-primitive)
-        String str1 = "Hello World!!!";
+        String str1 = "getstarted.Hello World!!!";
 
         //string manipulation
         System.out.println(str1.length());
@@ -122,7 +124,7 @@ class Hello {
         array4[1][0] = 9;
         array4[1][1] = 0;
 
-
+        House house = new House();
 
     }
 }
