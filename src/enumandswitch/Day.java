@@ -1,37 +1,37 @@
-package conditions;
+package enumandswitch;
 
-public class SwitchStatement {
+public class Day {
 
-    public static void main(String[] args) {
+    Week week;
 
-        String day = "Mon";
+    public Day(Week week) {
+        this.week = week;
+    }
 
-        switch (day){
-            case "Mon":
+    public void whichDay(){
+
+        switch (week){
+            case MON:
                 System.out.println("first day of the week");
                 break;
-            case "Tue":
+            case TUE:
                 System.out.println("second day of the week");
                 break;
-            case "Wed":
+            case WED:
                 System.out.println("third day of the week");
                 break;
-            case "Thu":
+            case THU:
                 System.out.println("fourth day of the week");
                 break;
-            case "Fri":
+            case FRI:
                 System.out.println("fifth day of the week");
                 break;
-            case "Sat":
+            case SAT:
                 System.out.println("sixth day of the week");
                 break;
-            case "Sun":
+            case SUN:
                 System.out.println("seventh day of the week");
                 break;
-            default:
-                System.out.println("error");
-
         }
-
     }
 }
